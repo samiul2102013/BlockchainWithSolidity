@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Network: Sepolia Aggregator: ETH/USD Address: 0x694AA1769357215DE4FAC081bf1f309aDC325306"
+				},
+				"getLatestPrice()": {
+					"notice": "Returns the latest ETH/USD price"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contacts/some.sol": "PriceConsumerV3"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contacts/some.sol": {
+			"keccak256": "0x764412e0b3410e1a21624d09afd171d6f9119ee1c82cf3bb736363b4e3fcfa95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e7838b4940928181fda4d5664cb852053912b4cef55180d5c3f0f55ed049f3c",
+				"dweb:/ipfs/QmaEmwm5HydoFUDnxqkEyxowzGqNBZkRi5rB4g8fuJmW1t"
+			]
+		}
+	},
+	"version": 1
+}
